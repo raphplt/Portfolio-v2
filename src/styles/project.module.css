@@ -1,0 +1,46 @@
+.devicePC{
+    width: 55%;
+    height: auto;
+}
+
+.deviceTab{
+    width: 25%;
+    height: auto;
+}
+
+.devicePhone{
+    width: 12%;
+    height: auto;
+}
+
+.devices{
+    margin-top: 100px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.devicesChild{
+    display: flex;
+    margin-left: 150px;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.projectContainer{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.projectInfos h3{
+    font-size: 3em;
+}
+
+.projectInfos p{
+    font-size: 1.15em;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(146, 143, 143);
+}

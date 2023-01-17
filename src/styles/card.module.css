@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Poppins&display=swap');
+
+.main{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    background: #F0F1EC;
+    border-left: 20px solid #F0F1EC;
+    border-right: 20px solid #F0F1EC;
+    border-top: 15px solid #F0F1EC;
+    border-bottom: 15px solid #F0F1EC;
+    border-radius: 25px 25px;
+    box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.02), 1px 2px 16px rgba(42, 64, 84, 0.08);
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.left h1, .left p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.left p{
+    line-height: 26px;
+    width: 90%;
+}
+
+.left h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.cardImage{
+    border-radius: 15px 15px;
+    box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.02), 1px 2px 16px rgba(42, 64, 84, 0.06);
+}
+
+.main:hover{
+    cursor: pointer;
+    animation: hoverBg .6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hoverBg{
+    0%{
+        background: #F0F1EC;
+    }
+    100%{
+        background: rgb(203, 203, 204);
+        border-left: 20px solid rgb(203, 203, 204);
+        border-right: 20px solid rgb(203, 203, 204);
+        border-top: 15px solid rgb(203, 203, 204);
+        border-bottom: 15px solid rgb(203, 203, 204);
+    }
+}

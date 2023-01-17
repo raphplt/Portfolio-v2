@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Poppins&display=swap');
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.right{
+    display: flex;
+    gap: 70px;
+    font-size: 1.1em;
+    justify-content: flex-end;
+}
+
+.child{
+    font-family: 'Poppins', sans-serif;
+}
+
+.child:hover{
+    text-decoration: underline 2px solid black;
+    cursor: pointer;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.menuPhone{
+    display: none;
+}
+
+.hambImg{
+    display: none;
+}
+
+@media screen and (max-width: 568px) {
+    .main{
+        flex-wrap: wrap;
+    }
+    .right{
+        flex-wrap: wrap;
+    }
+    .hambImg{
+        display: unset;
+        position: absolute;
+        right: 10%;
+        width: 10%;
+        height: auto;
+    }
+    .displayPC{
+        display: none;
+    }
+    .right{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        background: white;
+        z-index: 3;
+        margin-top: 100px;
+        width: 100%;
+        padding-bottom: 600px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 30px;
+    }
+
+}

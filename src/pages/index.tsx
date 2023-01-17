@@ -209,14 +209,13 @@ export default function Home() {
               <div className={styles.paragraph}>
                 <h3>Scolarité</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  J&apos;ai découvert ma passion pour l&apos;informatique en
+                  3ème, en créant un clone du jeu vidéo Mario. Au lycée,
+                  j&apos;ai suivi la spécialité NSI (Numérique et Sciences
+                  Informatiques) ou j&apos;ai appris les bases du développement
+                  à travers le langage Python et les langages web. J&apos;ai
+                  réalisé de nombreux mini-projets seul ou en binôme qui
+                  m&apos;ont appris à travailler en équipe.
                 </p>
               </div>
             )}
@@ -229,11 +228,12 @@ export default function Home() {
                   <p>
                     J&apos;ai pu réaliser différents projets au cour de ma
                     scolarité à l&apos;ETNA, commme la création d un jeu vidéo
-                    RPG en Typescript, la conception d&apos;un site d&apos;e
-                    commerce avec un Back-end en ExpressJS et un Front end en
-                    NextJS. Plus recemment, j&apos;ai réalisé le blog de
-                    l&apos;entreprise Mentor Goal, à partir d&apos;une maquette
-                    Figma avec.
+                    RPG dans l&apos;univers de Zelda en Typescript, ou la
+                    conception d&apos;un site d&apos;e commerce avec un Back-end
+                    en ExpressJS et un Front end en NextJS. Plus recemment,
+                    j&apos;ai réalisé le blog de l&apos;entreprise Mentor Goal,
+                    à partir d&apos;une maquette Figma, un Back-end en Strapi et
+                    un Front-end en NextJS.
                   </p>
                 </div>
                 <Svg4 />
@@ -245,14 +245,12 @@ export default function Home() {
               <div className={styles.paragraph}>
                 <h3>Autodidacte</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Ma passion du web s&apos;est développée grandement avec des
+                  projets personnels. Depuis le lycée, j&apos;ai pu réaliser
+                  plusieurs projets en autodidacte comme la création d&apos;un
+                  site dédié à une de mes passions: la photographie. Ces projets
+                  personnels m&apos;ont encouragés à apprendre par moi même, et
+                  à être toujours curieux des nouvelles technologies.
                 </p>
               </div>
             )}

@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+
+.pageTop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: auto;
+    margin-bottom: 400px;
+}
+
+.pageTopLeft{
+    margin-left: 100px;
+    opacity: 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    animation: fadeUp .7s;
+    animation-fill-mode: forwards;
+    animation-delay: .4s;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+@keyframes fadeUp{
+    0%{
+        opacity: 0;
+        margin-top: 40px;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 10px;
+    }
+}
+
+.pageTopRight{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 80px;
+    z-index: 2;
+  
+}
+
+.pageTitle{
+    margin: 0 auto;
+    width: 70%;
+    z-index: 1;
+    position: sticky;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        margin-top: 40px;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.pageTopRight h1{
+    font-size: 5em;
+    font-family: 'Cormorant SC', serif;
+    animation: fadeIn 1s; 
+    animation-fill-mode: forwards;
+    color: black;
+}
+
+.pageTopRight h2{
+    font-size: 3em;
+    font-family: 'Cormorant SC', serif;
+    animation: fadeIn 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.pageTopRight p{
+    width: 80%;
+    font-size: 1.15em;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(146, 143, 143);
+    animation: fadeIn 1.4s;
+    animation-fill-mode: forwards;
+    margin-top: 20px !important;
+}
+
+.moreInfos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.button{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px 25px;
+    box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.02), 1px 2px 16px rgba(42, 64, 84, 0.06);
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button#btn1{
+    background: #000B76;
+    border: 2px solid #000B76;
+    color: white;
+}
+
+.button#btn2{
+    background: white;
+    color: #000B76;
+    border: 2px solid #000B76;
+}
+
+.button#btn1:hover{
+    animation: .4s hover1;
+    animation-fill-mode: forwards;
+}
+
+.button#btn2:hover{
+    animation: .4s hover2;
+    animation-fill-mode: forwards;
+}
+
+.button#btn3{
+    background: #000B76;
+    border: 2px solid #000B76;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.02), 1px 2px 16px rgba(42, 64, 84, 0.06);
+}
+
+.button#btn3:hover{
+    animation: .4s hover1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hover1{
+    0%{
+        background: #000B76;
+        color: white;
+    }
+    100%{
+        background: white;
+        color: #000B76;
+    }
+}
+
+@keyframes hover2{
+    0%{
+        background: white;
+        color: #000B76;
+    }
+    100%{
+        background: #000B76;
+        color: white;
+    }
+}
+
+.pageMe{
+    margin-top: 100px;  
+    position: relative;
+    height: 1500px;
+}
+
+.quiSuisJe{
+    width: 50%;
+    margin-left: 200px;
+    color: black;
+    z-index: 2;
+}
+
+@keyframes scroll{
+    0%{
+        margin-left: -150px;
+        opacity: 0;
+    }
+    100%{
+        margin-left: unset;
+        opacity: 1;
+    }
+}
+
+@keyframes scrollRight{
+    0%{
+        margin-right: -150px;
+        opacity: 0;
+    }
+    100%{
+        margin-right: unset;
+        opacity: 1;
+    }
+}
+
+.text{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.paragraph{
+    animation: scroll 1s;
+    animation-fill-mode: forwards;
+}
+
+.paragraph#right{
+    animation: scrollRight 1s;
+    animation-fill-mode: forwards;
+}
+
+.quiSuisJe p{
+    line-height: 35px;
+
+}
+
+.quiSuisJe h2{
+    font-size: 4em;
+    margin-left: 200px;
+    animation: scroll 1s;
+    animation-fill-mode: forwards;
+    font-family: 'Cormorant SC', serif;
+}
+
+.quiSuisJe h3{
+    line-height: 75px;
+    margin-top: 35px;
+}
+
+.text#textTop, .text#textBottom{
+    text-align: left;
+}
+
+.text#textMiddle{
+    text-align: right;
+}
+
+
+.boule{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 50%;
+    top: 60%;
+    margin-top: 100px;
+    border-radius: 50%;
+    opacity: .85;
+    background-image: linear-gradient(
+        45deg,
+        hsl(240deg 88% 54%) 0%,
+        hsl(228deg 100% 43%) 15%,
+        hsl(226deg 100% 39%) 27%,
+        hsl(225deg 100% 35%) 38%,
+        hsl(223deg 100% 30%) 48%,
+        hsl(222deg 100% 26%) 58%,
+        hsl(220deg 100% 21%) 67%,
+        hsl(218deg 100% 17%) 77%,
+        hsl(215deg 100% 13%) 88%,
+        hsl(218deg 69% 10%) 100%
+      );
+    box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.02), 1px 2px 16px rgba(42, 64, 84, 0.06);
+    animation: 2s float infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes float{
+    0%{
+        margin-top: 100px;
+        opacity: .85;
+    }
+    50%{
+        margin-top: 105px;
+        opacity: .8;
+    }
+    100%{
+        margin-top: 100px;
+        opacity: .85;
+    }
+}
+
+.me{
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    background: white;
+    margin-left: 150px;
+    position: absolute;
+    right: 10%;
+    top: 12%;
+    border: 3px solid #000B76;
+    box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.02), 1px 2px 16px rgba(42, 64, 84, 0.06);
+    z-index: 2;
+    animation: fadeIn .8s;
+    animation-fill-mode: forwards;
+}
+
+.pageProjects{
+    margin: 0 auto;
+    z-index: 2;
+    background: #E9E7E7;
+    height: 3950px;
+    padding-top: 300px;
+}
+
+.pageProjects h2{
+    font-size: 4em;
+    margin-left: 200px;
+    animation: scroll 1s;
+    animation-fill-mode: forwards;
+    font-family: 'Cormorant SC', serif;
+    margin-bottom: 150px;
+    padding-left: 200px;
+}
+
+.devicePC{
+    width: 55%;
+    height: auto;
+    animation: onsetPC 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes onsetPC{
+    0%{
+        opacity: 0;
+        margin-top: 50px;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.deviceTab{
+    width: 25%;
+    height: auto;
+    animation: onsetTab 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes onsetTab{
+    0%{
+        opacity: 0;
+        margin-left: 50px;
+    }
+    100%{
+        opacity: 1;
+        margin-left: 0px;
+    }
+}
+
+.devicePhone{
+    width: 12%;
+    height: auto;
+    animation: onsetPhone 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes onsetPhone{
+    0%{
+        opacity: 0;
+        margin-right: 50px;
+    }
+    100%{
+        opacity: 1;
+        margin-right: 0px;
+    }
+}
+
+.devices{
+    display: flex;
+    flex-direction: column;
+    margin-top: 350px;
+    z-index: 2;
+    align-items: flex-end;
+
+}
+
+@keyframes fadeInSlow{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.devicesChild{
+    display: flex;
+    margin-left: 150px;
+    align-items: flex-end;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-right: 140px;
+}
+
+.devices#left{
+    margin-top: 100px;
+    align-items: flex-start;
+
+}
+
+.devicesChild#left{
+    justify-content: flex-start;
+}
+
+.projectContainer{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.projectInfos h3{
+    font-size: 3em;
+    animation: scroll 1s;
+    animation-fill-mode: forwards;
+}
+
+.projectInfos p{
+    font-size: 1.15em;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(146, 143, 143);
+    animation: scroll 1s;
+    animation-delay: .2;
+    animation-fill-mode: forwards;
+}
+
+.projectContainer#pr3{
+    margin-top: 200px;
+}
+
+.deviceTab#pr3{
+    width: 30%;
+}
+
+.devicePhone#pr3{
+    width: 16%;
+}
+
+.pageCompetences{
+    background: #110C36;
+    color: white;
+    z-index: 2;
+}
+
+.pageCompetences h2{
+    font-size: 3em;
+    font-family: 'Cormorant SC', serif;
+    padding-top: 150px;
+    width: 85%;
+    margin: 0 auto;
+    animation: scrollLeft 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scrollLeft{
+    0%{
+        margin-left: 0px;
+        opacity: 0;
+    }
+    100%{
+        margin-left: 150px;
+        opacity: 1;
+    }
+}
+
+.competencesContainer{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.projectContainer#hide{
+    display: none;
+}
+
+.pageContact{
+    height: 900px;
+    margin-top: 150px;
+    z-index: 2;
+}
+
+.pageContact h2{
+    font-size: 4em;
+    margin-left: 200px;
+    animation: scroll 1s;
+    animation-fill-mode: forwards;
+    font-family: 'Cormorant SC', serif;
+    padding-left: 200px;
+}
+
+.pageContact h4{
+    padding-left: 200px;
+    font-size: 1.15em;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(146, 143, 143);
+    animation: fadeIn 1.4s;
+    animation-fill-mode: forwards;
+    margin-top: 20px !important;
+    margin-bottom: 50px;
+}
+
+.contactBox{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 60px;
+}
+
+@media screen and (max-width: 568px) {
+    .pageTop{
+        flex-direction: column;
+        margin-bottom: unset;
+    }
+    .pageTopLeft{
+        opacity: 0;
+        width: 80% !important;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        animation: fadeUp .7s;
+        animation-fill-mode: forwards;
+        animation-delay: .4s;
+        z-index: 2;
+    }
+    .pageTopRight{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-top: 80px;
+        z-index: 2;
+    }
+    .pageTopRight{
+        display: none;
+    }
+    .boule{
+        display: none;
+    }
+    .quiSuisJe{
+        margin-left: unset;
+        width: 100%;
+    }
+    .quiSuisJe h2{
+        width: 100%;
+    }
+    .quiSuisJe h3{
+        margin-top: 10px;
+    }
+    .pageMe{
+        margin-bottom: 700px;
+    }
+    .pageProjects{
+        display: flex;
+        flex-direction: column;
+        height: 3500px;
+    }
+    .me{
+        top: 50%;
+        right: unset;
+        margin-left: 20px;
+        width: 40%;
+    }
+    .text#textMiddle{
+        margin-top: 280px;
+    }
+    .pageProjects{
+        height: 1500px;
+    }
+    .pageProjects h2{
+        margin-left: unset;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding-left: 50px;
+    }
+    .projectContainer{
+        flex-direction: column;
+    }
+    .devicePC{
+        width: 100%;
+    }
+    .deviceTab{
+        width: 250%;
+    }
+    .devicePhone{
+        width: 125%;
+    }
+    .devices{
+        justify-content: flex-start;
+    }
+    .devicesChild{
+        justify-content: flex-start;
+    }
+    .projectContainer#phone{
+        display: none;
+    }
+    .projectContainer#hide{
+        display: unset;
+    }
+    .pageTitle{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .button{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        border-radius: 25px 25px;
+        box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.02), 1px 2px 16px rgba(42, 64, 84, 0.06);
+    }
+    .pageMe h2{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 568px) {
+    .pageTopPhone{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .pageTop{
+        margin-top: 100px;
+    }
+    .pageCompetences{
+        background: #110C36;
+        color: white;
+        margin-top: 300px;
+    }
+}

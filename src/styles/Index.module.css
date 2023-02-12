@@ -452,6 +452,8 @@
     background: #110C36;
     color: white;
     z-index: 2;
+    padding-top: 150px;
+    height: 1000px;
 }
 
 .pageCompetences h2{
@@ -487,7 +489,7 @@
 }
 
 .pageContact{
-    height: 900px;
+    height: 600px;
     margin-top: 150px;
     z-index: 2;
 }
@@ -623,6 +625,39 @@
     }
     .pageMe h2{
         margin-left: 50px;
+    }
+
+    .quiSuisJe h2{
+        text-align: center;
+    }
+    .pageProjects{
+        padding-top: unset;
+    }
+
+    .pageProjects h3{
+        margin-top: 75px;
+        font-size: 2em;
+    }
+    .pageProjects p{
+        font-size: 1em;
+        padding-bottom: 20px;
+    }
+    .pageMe{
+        height: 1300px;
+    }
+    .pageProjects{
+        height: auto;
+        padding-bottom: 100px;
+    }
+    .deviceTab#pr3{
+        width: 250%;
+    }
+    
+    .devicePhone#pr3{
+        width: 150%;
+    }
+    .projectContainer#pr3{
+        margin-top: unset;
     }
 }
 

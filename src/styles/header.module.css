@@ -73,6 +73,9 @@
         text-align: center;
         line-height: 100px;
         font-size: 30px;
-    }
-
+        }
+        .logo{
+            width: 15%;
+            height: auto;
+        }
 }

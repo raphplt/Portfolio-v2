@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // assetPrefix: "./",
+  assetPrefix: "./",
   reactStrictMode: true,
   // swcMinify: true,
   images: {
     // domains: ["localhost"],
     unoptimized: true,
   },
-  basePath: "/raph-portfolio",
+  // basePath: "/raph-portfolio",
 };
 
 

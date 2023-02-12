@@ -60,9 +60,9 @@ export default function Home() {
     let heightToShowFromPr1 = 2400;
     let heightToShowFromPr2 = 3400;
     let heightToShowFromPr3 = 4700;
-    let heightToShowFromPTitleC = 6200;
+    let heightToShowFromPTitleC = 6500;
     let heightToShowFromCpt = 6700;
-    let heightToShowFromTitleW = 8300;
+    let heightToShowFromTitleW = 8000;
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
     setHeight(winScroll);
@@ -344,13 +344,15 @@ export default function Home() {
                 className={styles.devicePC}
               />
               <div className={styles.devicesChild} id={styles.left}>
-                <img
-                  src={"../../public/assets/medias/tab-afa.png"}
+                <Image
+                  loader={() => `../../public/assets/medias/tab-afa.png`}
+                  src={tabAfa}
                   alt="The website shown in tablet format"
                   className={styles.deviceTab}
                 />
-                <img
-                  src={"../../public/assets/medias/phone-afa.png"}
+                <Image
+                  loader={() => `../../public/assets/medias/phone-afa.png`}
+                  src={phoneAfa}
                   alt="The website shown in phone format"
                   className={styles.devicePhone}
                 />

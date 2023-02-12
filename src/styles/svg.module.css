@@ -47,7 +47,7 @@
     width: 55%;
     opacity: .9;
     z-index: 0;
-    top: 315%;
+    top: 290%;
     animation: show .6s;
     animation-fill-mode: forwards;
 }
@@ -57,7 +57,7 @@
     width: 55%;
     opacity: .9;
     z-index: 0;
-    top: 445%;
+    top: 420%;
     animation: show .6s;
     animation-fill-mode: forwards;
 }
@@ -66,8 +66,8 @@
     left: 0%;
     width: 55%;
     opacity: .9;
-    z-index: 0;
-    top: 565%;
+    z-index: 1;
+    top: 535%;
     animation: show .6s;
     animation-fill-mode: forwards;
 }
@@ -76,29 +76,29 @@
     position: absolute;
     top: 234%;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .waves2{
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 630%;
-    z-index: 1;
+    height: auto;
+    top: 625%;
+    z-index: 0;
 }
 
 .waves3{
     position: absolute;
     top: 700%;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .waves4{
     position: absolute;
-    top: 970%;
+    top: 860%;
     width: 100%;
-    height: 100%;
+    height: auto;
     z-index: 0;
 }
 
@@ -131,8 +131,8 @@
     .svg1, .svg2, .svg3, .svg4, .svg5, .svg6, .svg7, .waves2{
         display: none;
     }
-    .waves{
-        display: none;
+    .waves, .waves2, .waves3, .waves4{
+        display: none !important;
     }
 }
 

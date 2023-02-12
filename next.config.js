@@ -7,7 +7,7 @@ const nextConfig = {
     // domains: ["localhost"],
     unoptimized: true,
   },
-  basePath: "/portfolio",
+  basePath: "/raph-portfolio",
 };
 
 

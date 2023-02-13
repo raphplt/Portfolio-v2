@@ -9,6 +9,7 @@ export default function Wave3() {
       height="100%"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      className={styles.waves3}
       version="1.1"
     >
       <rect x="0" y="0" width="1920" height="600" fill="#110C36"></rect>

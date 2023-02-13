@@ -453,7 +453,7 @@
     color: white;
     z-index: 2;
     padding-top: 150px;
-    height: 1000px;
+    height: unset;
 }
 
 .pageCompetences h2{
@@ -518,6 +518,7 @@
     width: 80%;
     margin: 0 auto;
     line-height: 60px;
+    z-index: 2;
 }
 
 @media screen and (max-width: 568px) {

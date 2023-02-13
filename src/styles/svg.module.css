@@ -47,7 +47,7 @@
     width: 55%;
     opacity: .9;
     z-index: 0;
-    top: 290%;
+    top: 315%;
     animation: show .6s;
     animation-fill-mode: forwards;
 }
@@ -57,7 +57,7 @@
     width: 55%;
     opacity: .9;
     z-index: 0;
-    top: 420%;
+    top: 445%;
     animation: show .6s;
     animation-fill-mode: forwards;
 }
@@ -67,7 +67,7 @@
     width: 55%;
     opacity: .9;
     z-index: 1;
-    top: 535%;
+    top: 565%;
     animation: show .6s;
     animation-fill-mode: forwards;
 }
@@ -83,22 +83,21 @@
     position: absolute;
     width: 100%;
     height: auto;
-    top: 625%;
+    top: 655%;
     z-index: 0;
 }
 
 .waves3{
-    position: absolute;
-    top: 700%;
     width: 100%;
     height: auto;
+    z-index: 0;
 }
 
 .waves4{
-    position: absolute;
-    top: 860%;
+    top: 970%;
     width: 100%;
     height: auto;
+    position: absolute;
     z-index: 0;
 }
 

@@ -452,14 +452,12 @@
     background: #110C36;
     color: white;
     z-index: 2;
-    padding-top: 150px;
     height: unset;
 }
 
 .pageCompetences h2{
     font-size: 3em;
     font-family: 'Cormorant SC', serif;
-    padding-top: 150px;
     width: 85%;
     margin: 0 auto;
     animation: scrollLeft 1s;
@@ -489,8 +487,6 @@
 }
 
 .pageContact{
-    height: 600px;
-    margin-top: 150px;
     z-index: 2;
 }
 
@@ -660,6 +656,9 @@
     .projectContainer#pr3{
         margin-top: unset;
     }
+    .devicesChild{
+        justify-content: center !important;
+    }
 }
 
 @media screen and (min-width: 568px) {
@@ -675,6 +674,5 @@
     .pageCompetences{
         background: #110C36;
         color: white;
-        margin-top: 300px;
     }
 }

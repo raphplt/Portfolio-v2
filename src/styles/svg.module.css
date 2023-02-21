@@ -43,11 +43,10 @@
 }
 
 .svg5{
-    left: -3%;
     width: 55%;
     opacity: .9;
     z-index: 0;
-    top: 315%;
+    left: 0%;
     animation: show .6s;
     animation-fill-mode: forwards;
 }
@@ -57,7 +56,7 @@
     width: 55%;
     opacity: .9;
     z-index: 0;
-    top: 445%;
+    margin-top: 240px;
     animation: show .6s;
     animation-fill-mode: forwards;
 }
@@ -67,9 +66,9 @@
     width: 55%;
     opacity: .9;
     z-index: 1;
-    top: 565%;
     animation: show .6s;
     animation-fill-mode: forwards;
+    margin-top: 50px;
 }
 
 .waves{
@@ -80,10 +79,8 @@
 }
 
 .waves2{
-    position: absolute;
     width: 100%;
     height: auto;
-    top: 655%;
     z-index: 0;
 }
 
@@ -94,10 +91,8 @@
 }
 
 .waves4{
-    top: 970%;
     width: 100%;
     height: auto;
-    position: absolute;
     z-index: 0;
 }
 

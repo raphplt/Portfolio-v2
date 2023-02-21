@@ -1,10 +1,13 @@
 /* eslint-disable react/jsx-no-target-blank */
 import Link from "next/link";
 import styles from "../styles/footer.module.css";
+import Wave4 from "./svgWaves4";
 
 export default function Footer() {
   return (
     <div className={styles.main}>
+      <Wave4 />
+
       <div className={styles.box}>
         <div className={styles.child}>
           <h2>Pages</h2>

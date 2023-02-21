@@ -412,8 +412,8 @@ export default function Home() {
           </div>
         )}
       </div>
-      <Wave2 />
       <div className={styles.pageCompetences} id={"competences"}>
+        <Wave2 />
         {isVisibleTitleC && <h2>Compétences</h2>}
         {isVisibleCpt && (
           <div className={styles.competencesContainer}>
@@ -483,7 +483,6 @@ export default function Home() {
           </>
         )}
       </div>
-      <Wave4 />
       <Footer />
     </div>
   );
